@@ -1,36 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <style>
-        #header-img {
-            width: 250px;
-        }
-     /* For desktop: */
-     .col-1 {width: 8.33%;}
-     .col-2 {width: 16.66%;}
-     .col-3 {width: 25%;}
-     .col-4 {width: 33.33%;}
-     .col-5 {width: 41.66%;}
-     .col-6 {width: 50%;}
-     .col-7 {width: 58.33%;}
-     .col-8 {width: 66.66%;}
-     .col-9 {width: 75%;}
-     .col-10 {width: 83.33%;}
-     .col-11 {width: 91.66%;}
-     .col-12 {width: 100%;}
-
-     @media only screen and (max-width: 768px) {
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+            @media only screen and (max-width: 768px) {
          /* For mobile phones: */
-         [class*="col-"] {
-             width: 100%;
-         }
-}
-     .flex-container {
-         display: flex;
-}
-    </style>
+        [class*="col-"] {
+        width: 100%;
+    }
+    }
+        .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+        </style>
     </head>
     <body>
+        <center>
         <header id="header"><img id="header-img" src="https://z.zz.ht/94BYf.jpg">
             <nav id="nav-bar">
             <a class="nav-link" href="#more">learn more</a>
@@ -39,7 +25,9 @@
             </nav>
         </header>
         <section id="more">
+            <h1>interesting placeholder title</h1>
             <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/eT3BFzSD6YY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
         </section>
         <section id="coupon">
             <form id="form" action="https://www.freecodecamp.com/email-submit">
@@ -47,14 +35,14 @@
                 <input id="submit" type="submit"></input>
             </form>
         </section>
+        <br>
         <section id="amazon">
             <div class="flex-container">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-            </div>
+                <div>Buy From Bezos</div>
+                <div>Buy From Ebay</div>
+                <div>Buy From China</div>
         </section>
-        <h1>Placeholder Landing Page</h1>
+    </center>
 <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
